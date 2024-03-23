@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(166, 166, 166, 0.8);
+  border-radius: 20%;
+  margin-top: 10px;
+  padding: 40px;
+}
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.biodata-header {
+  font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
+  text-shadow: 1px 1px 5px blue;
+  background-color: rgb(166, 166, 166, 0.8);
+  background-position: center;
+  border-radius: 100%;
+  width: 220px;
+  padding: 10px;
+}
+
+.biodata-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.biodata-img {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.biodata-title {
+  margin-top: 20px;
+  margin-bottom: 150px;
+  font-weight: 800;
+  font-size: 25px;
+  text-shadow: 1px 1px 5px red;
+}
+
+.intro {
+  text-align: center;
+  max-width: 900px;
+  margin-top: -130px;
+  margin-bottom: 30px;
+}
+
+.container-gallery {
+  display: flex;
+  background-color: rgb(165, 165, 165, 0.8);
+  border-radius: 20%;
+  margin-top: 50px;
+  padding: 140px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-title {
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 1px 1px 5px red;
+  margin-top: -100px;
+  margin-bottom: 2px;
+}
+
+.img-fluid {
+  width: 280px;
+  margin-top: 35px;
+  border-radius: 30%;
+}
